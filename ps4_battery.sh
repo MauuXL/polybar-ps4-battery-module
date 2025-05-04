@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Fix SUDO
-if [ "$EUID" -ne 0 ]; then
-  exec sudo "$0" "$@"
-fi
-
 # Busqueda de mandos
 ALL_DEVICES=$(upower -e | grep "battery" | while read device; do
     if upower -i "$device" | grep -qE "joystick|gamepad|Sony|Wireless Controller|PlayStation"; then
