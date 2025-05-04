@@ -1,5 +1,5 @@
 # polybar-ps4-battery-module
-![Polybar-Ps4](.example.png)
+![Polybar-Ps4](example.png)
 ### Dependencias
 + upower (Para ver el estado de bateria del dispositivo)
 ### Instalación
