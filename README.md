@@ -12,5 +12,5 @@ type = custom/script
 exec = ~/.config/polybar/ps4_battery.sh  
 interval = 1  
 label = "%output%"  
-label-background = #222330 
+label-background = #222330  
 format = <label>
